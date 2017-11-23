@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5672D6E11FC586B6006291CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672D6E01FC586B6006291CC /* AppDelegate.swift */; };
+		5672D6E31FC586B6006291CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672D6E21FC586B6006291CC /* ViewController.swift */; };
+		5672D6E61FC586B7006291CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5672D6E41FC586B7006291CC /* Main.storyboard */; };
+		5672D6E81FC586B7006291CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5672D6E71FC586B7006291CC /* Assets.xcassets */; };
+		5672D6EB1FC586B7006291CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5672D6E91FC586B7006291CC /* LaunchScreen.storyboard */; };
+		5672D6F91FC58AC4006291CC /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5672D6F81FC58AC4006291CC /* NotificationCenter.framework */; };
+		5672D6FC1FC58AC4006291CC /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5672D6FB1FC58AC4006291CC /* TodayViewController.swift */; };
+		5672D6FF1FC58AC4006291CC /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5672D6FD1FC58AC4006291CC /* MainInterface.storyboard */; };
+		5672D7031FC58AC4006291CC /* Bingo Things.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5672D6F61FC58AC3006291CC /* Bingo Things.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5672D7011FC58AC4006291CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5672D6D51FC586B4006291CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5672D6F51FC58AC3006291CC;
+			remoteInfo = "Bingo Things";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5672D7071FC58AC4006291CC /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5672D7031FC58AC4006291CC /* Bingo Things.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5672D6DD1FC586B5006291CC /* TodayExtensionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodayExtensionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5672D6E01FC586B6006291CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5672D6E21FC586B6006291CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5672D6E51FC586B7006291CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5672D6E71FC586B7006291CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5672D6EA1FC586B7006291CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5672D6EC1FC586B8006291CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5672D6F61FC58AC3006291CC /* Bingo Things.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Bingo Things.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5672D6F81FC58AC4006291CC /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		5672D6FB1FC58AC4006291CC /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		5672D6FE1FC58AC4006291CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		5672D7001FC58AC4006291CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5672D6DA1FC586B5006291CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5672D6F31FC58AC3006291CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5672D6F91FC58AC4006291CC /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5672D6D41FC586B4006291CC = {
+			isa = PBXGroup;
+			children = (
+				5672D6DF1FC586B5006291CC /* TodayExtensionDemo */,
+				5672D6FA1FC58AC4006291CC /* Bingo Things */,
+				5672D6F71FC58AC4006291CC /* Frameworks */,
+				5672D6DE1FC586B5006291CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5672D6DE1FC586B5006291CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5672D6DD1FC586B5006291CC /* TodayExtensionDemo.app */,
+				5672D6F61FC58AC3006291CC /* Bingo Things.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5672D6DF1FC586B5006291CC /* TodayExtensionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				5672D6E01FC586B6006291CC /* AppDelegate.swift */,
+				5672D6E21FC586B6006291CC /* ViewController.swift */,
+				5672D6E41FC586B7006291CC /* Main.storyboard */,
+				5672D6E71FC586B7006291CC /* Assets.xcassets */,
+				5672D6E91FC586B7006291CC /* LaunchScreen.storyboard */,
+				5672D6EC1FC586B8006291CC /* Info.plist */,
+			);
+			path = TodayExtensionDemo;
+			sourceTree = "<group>";
+		};
+		5672D6F71FC58AC4006291CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5672D6F81FC58AC4006291CC /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5672D6FA1FC58AC4006291CC /* Bingo Things */ = {
+			isa = PBXGroup;
+			children = (
+				5672D6FB1FC58AC4006291CC /* TodayViewController.swift */,
+				5672D6FD1FC58AC4006291CC /* MainInterface.storyboard */,
+				5672D7001FC58AC4006291CC /* Info.plist */,
+			);
+			path = "Bingo Things";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5672D6DC1FC586B5006291CC /* TodayExtensionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5672D6EF1FC586B8006291CC /* Build configuration list for PBXNativeTarget "TodayExtensionDemo" */;
+			buildPhases = (
+				5672D6D91FC586B5006291CC /* Sources */,
+				5672D6DA1FC586B5006291CC /* Frameworks */,
+				5672D6DB1FC586B5006291CC /* Resources */,
+				5672D7071FC58AC4006291CC /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5672D7021FC58AC4006291CC /* PBXTargetDependency */,
+			);
+			name = TodayExtensionDemo;
+			productName = TodayExtensionDemo;
+			productReference = 5672D6DD1FC586B5006291CC /* TodayExtensionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5672D6F51FC58AC3006291CC /* Bingo Things */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5672D7041FC58AC4006291CC /* Build configuration list for PBXNativeTarget "Bingo Things" */;
+			buildPhases = (
+				5672D6F21FC58AC3006291CC /* Sources */,
+				5672D6F31FC58AC3006291CC /* Frameworks */,
+				5672D6F41FC58AC3006291CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Bingo Things";
+			productName = "Bingo Things";
+			productReference = 5672D6F61FC58AC3006291CC /* Bingo Things.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5672D6D51FC586B4006291CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Bingo;
+				TargetAttributes = {
+					5672D6DC1FC586B5006291CC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = FH6F3G6EQZ;
+						ProvisioningStyle = Automatic;
+					};
+					5672D6F51FC58AC3006291CC = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = FH6F3G6EQZ;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 5672D6D81FC586B4006291CC /* Build configuration list for PBXProject "TodayExtensionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5672D6D41FC586B4006291CC;
+			productRefGroup = 5672D6DE1FC586B5006291CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5672D6DC1FC586B5006291CC /* TodayExtensionDemo */,
+				5672D6F51FC58AC3006291CC /* Bingo Things */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5672D6DB1FC586B5006291CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5672D6EB1FC586B7006291CC /* LaunchScreen.storyboard in Resources */,
+				5672D6E81FC586B7006291CC /* Assets.xcassets in Resources */,
+				5672D6E61FC586B7006291CC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5672D6F41FC58AC3006291CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5672D6FF1FC58AC4006291CC /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5672D6D91FC586B5006291CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5672D6E31FC586B6006291CC /* ViewController.swift in Sources */,
+				5672D6E11FC586B6006291CC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5672D6F21FC58AC3006291CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5672D6FC1FC58AC4006291CC /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5672D7021FC58AC4006291CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5672D6F51FC58AC3006291CC /* Bingo Things */;
+			targetProxy = 5672D7011FC58AC4006291CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5672D6E41FC586B7006291CC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5672D6E51FC586B7006291CC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5672D6E91FC586B7006291CC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5672D6EA1FC586B7006291CC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5672D6FD1FC58AC4006291CC /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5672D6FE1FC58AC4006291CC /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5672D6ED1FC586B8006291CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5672D6EE1FC586B8006291CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5672D6F01FC586B8006291CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FH6F3G6EQZ;
+				INFOPLIST_FILE = TodayExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bingo-14k.TodayExtensionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5672D6F11FC586B8006291CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FH6F3G6EQZ;
+				INFOPLIST_FILE = TodayExtensionDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bingo-14k.TodayExtensionDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		5672D7051FC58AC4006291CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FH6F3G6EQZ;
+				INFOPLIST_FILE = "Bingo Things/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bingo-14k.TodayExtensionDemo.Bingo-Things";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		5672D7061FC58AC4006291CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = FH6F3G6EQZ;
+				INFOPLIST_FILE = "Bingo Things/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "bingo-14k.TodayExtensionDemo.Bingo-Things";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5672D6D81FC586B4006291CC /* Build configuration list for PBXProject "TodayExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5672D6ED1FC586B8006291CC /* Debug */,
+				5672D6EE1FC586B8006291CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5672D6EF1FC586B8006291CC /* Build configuration list for PBXNativeTarget "TodayExtensionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5672D6F01FC586B8006291CC /* Debug */,
+				5672D6F11FC586B8006291CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5672D7041FC58AC4006291CC /* Build configuration list for PBXNativeTarget "Bingo Things" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5672D7051FC58AC4006291CC /* Debug */,
+				5672D7061FC58AC4006291CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5672D6D51FC586B4006291CC /* Project object */;
+}
